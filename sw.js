@@ -1,5 +1,5 @@
 /* sw.js — eenvoudige offline cache. Bump CACHE bij elke wijziging van assets. */
-const CACHE = 'reps-v2';
+const CACHE = 'reps-v3';
 const ASSETS = [
   './',
   './index.html',

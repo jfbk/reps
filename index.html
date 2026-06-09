@@ -26,15 +26,15 @@
       <p class="onboarding-sub">Bepaalt waar je begint. Je hoeft niet onderaan te starten.</p>
       <button class="calib-btn" data-calib="begin">
         <span class="calib-name">Net begonnen</span>
-        <span class="calib-desc">Focus op Tier 1. Mini-stappen.</span>
+        <span class="calib-desc">Focus op Tier 1 — Presence. Kleine stappen, grote impact.</span>
       </button>
       <button class="calib-btn" data-calib="verder">
         <span class="calib-name">Al wat verder</span>
-        <span class="calib-desc">Tier 1 + 2 actief. Focus op Tier 2.</span>
+        <span class="calib-desc">Focus op Tier 2 — Frame. Aanspreken lukt, nu het frame houden.</span>
       </button>
       <button class="calib-btn" data-calib="gevorderd">
         <span class="calib-name">Gevorderd</span>
-        <span class="calib-desc">Alle tiers actief. Focus op Tier 3.</span>
+        <span class="calib-desc">Focus op Tier 3 — Leiden. Directheid, intentie, escalatie.</span>
       </button>
     </div>
   </div>
@@ -45,8 +45,8 @@
       <h1 class="large-title">Vandaag</h1>
       <div class="stats" id="stats">
         <div class="stat">
-          <span class="stat-num" id="stat-streak">0</span>
-          <span class="stat-label">Streak</span>
+          <span class="stat-num" id="stat-week">0</span>
+          <span class="stat-label">Deze week</span>
         </div>
         <div class="stat">
           <span class="stat-num" id="stat-total">0</span>
@@ -107,11 +107,23 @@
       </div>
     </section>
 
-    <!-- 7. Data / backup -->
+    <!-- 7. Herinneringen -->
+    <section class="section">
+      <h2 class="section-header">Herinneringen</h2>
+      <div class="card">
+        <p class="data-intro">Kies tijden. Download het .ics-bestand en open het op je iPhone — het zet dagelijkse alarmen in Apple Agenda. Eenmalige setup, werkt ook als de app dicht is.</p>
+        <div class="reminder-times" id="reminder-times"><!-- JS --></div>
+        <div class="data-row" style="margin-top:14px">
+          <button class="btn-secondary" id="ics-btn">Zet in agenda (.ics)</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Data / backup -->
     <section class="section">
       <h2 class="section-header">Data</h2>
       <div class="card data-card">
-        <p class="data-intro">Je voortgang staat lokaal op dit toestel. Maak af en toe een backup, Safari kan lokale data wissen na lange inactiviteit.</p>
+        <p class="data-intro">Je voortgang staat lokaal op dit toestel. Maak af en toe een backup — Safari kan lokale data wissen na lange inactiviteit.</p>
         <div class="data-row">
           <button class="btn-secondary" id="export-btn">Backup exporteren</button>
           <button class="btn-secondary" id="import-btn">Backup importeren</button>

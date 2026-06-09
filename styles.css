@@ -464,6 +464,33 @@ body {
   padding: 8px 0 4px;
 }
 
+/* ---------- Herinneringen ---------- */
+.reminder-times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+.reminder-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--grouped-bg);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-1);
+  user-select: none;
+}
+.reminder-option input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--green);
+  flex-shrink: 0;
+}
+
 /* ---------- Data / backup ---------- */
 .data-intro {
   font-size: 13px;
